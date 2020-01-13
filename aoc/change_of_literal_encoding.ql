@@ -22,4 +22,4 @@ class FuncionCallWithHexOrOctArgument extends FunctionCall{
 }
 
 from FuncionCallWithHexOrOctArgument fc
-select fc, "aoc_change_of_literal_encoding"
+select fc, " :aoc_change_of_literal_encoding"

@@ -15,4 +15,4 @@ from BinaryOperation bo
 where exists (BinaryOperation b | (bo.getLeftOperand()=b or bo.getRightOperand()=b) and (not b instanceof BinaryArithmeticOperation) and
   				not exists (ParenthesisExpr pe1, ParenthesisExpr pe2 | b.getLeftOperand()=pe1 and b.getRightOperand()=pe2) and
 				bo.getOperator()!=b.getOperator())
-select bo,"aoc_operator_precedence"
+select bo," :aoc_operator_precedence"

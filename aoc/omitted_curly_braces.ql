@@ -40,4 +40,4 @@ where (iofs instanceof IfStmt and
         	not(iofs.(ForStmt).getStmt() instanceof Block) and
 			not(iofs.(ForStmt).getStmt() instanceof BreakOrReturnOrContinue) and
         	iofs.(ForStmt).getStmt().getLocation().getStartLine()>iofs.(ForStmt).getLocation().getStartLine())
-select iofs,"aoc_omitted_curly_braces"
+select iofs," :aoc_omitted_curly_braces"

@@ -11,4 +11,4 @@ import cpp
 
 from AssignExpr aeL
 where aeL.getRValue() instanceof AssignExpr 
-select aeL,"aoc_assignment_as_value"
+select aeL," :aoc_assignment_as_value"

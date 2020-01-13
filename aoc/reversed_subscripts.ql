@@ -11,4 +11,4 @@ import cpp
 
 from ArrayExpr ae
 where ae.getChild(0)=ae.getArrayOffset()
-select ae,"aoc_reversed_subscripts"
+select ae," :aoc_reversed_subscripts"

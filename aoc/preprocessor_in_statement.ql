@@ -12,4 +12,4 @@ import cpp
 from Stmt st, Macro m 
 where m.getLocation().getStartLine()<=st.getLocation().getEndLine() and
 m.getLocation().getStartLine()>=st.getLocation().getStartLine() and st.getFile()=m.getFile()
-select st, "aoc_preprocessor_in_statement"
+select st, " :aoc_preprocessor_in_statement"

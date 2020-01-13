@@ -11,4 +11,4 @@ import cpp
 
 from Assignment a
 where a.getLValue().toString()="argc" or a.getLValue().toString()="argv"
-select a,"aoc_repurposed_variables"
+select a," :aoc_repurposed_variables"

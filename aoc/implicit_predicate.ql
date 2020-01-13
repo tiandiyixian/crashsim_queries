@@ -13,4 +13,4 @@ import cpp
 
 from ControlStructure cs
 where not exists (ComparisonOperation co | cs.getControllingExpr()=co) and cs.getControllingExpr() instanceof BinaryArithmeticOperation
-select cs,"aoc_implicit_predicate"
+select cs," :aoc_implicit_predicate"

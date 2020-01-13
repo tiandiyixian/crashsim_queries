@@ -11,4 +11,4 @@ import cpp
 
 from Assignment a
 where a.getRValue() instanceof CommaExpr
-select a,"aoc_comma_operator"
+select a," :aoc_comma_operator"

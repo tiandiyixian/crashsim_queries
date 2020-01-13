@@ -13,4 +13,4 @@ from PostfixCrementOperation pco, Expr e
 where (pco instanceof PostfixDecrExpr or pco instanceof PostfixIncrExpr) and
 exists (Expr ex | (ex instanceof AssignExpr or ex instanceof RelationalOperation or ex instanceof EqualityOperation) and
   ex.getChild(_)=pco and ex=e)
-select e,"aoc_post_increment_decrement"
+select e," :aoc_post_increment_decrement"

@@ -13,4 +13,4 @@ from PrefixCrementOperation pco, Expr e
 where (pco instanceof PrefixDecrExpr or pco instanceof PrefixIncrExpr) and
 exists (Expr ex | (ex instanceof AssignExpr or ex instanceof RelationalOperation or ex instanceof EqualityOperation) and
   ex.getChild(_)=pco and ex=e)
-select e,"aoc_pre_increment_decrement"
+select e," :aoc_pre_increment_decrement"
