@@ -11,6 +11,6 @@
 import cpp
 
 from ConditionalExpr ce, AssignExpr ae
-where not (exists (MacroInvocation mi | ce.isAffectedByMacro() and mi.getAnAffectedElement()=ce and mi.getMacroName().matches("%assert%"))) 
+where not (exists (MacroInvocation mi | ce.isAffectedByMacro() and mi.getAnAffectedElement()=ce and mi.getMacroName().toLowerCase().matches("%assert%"))) 
   and ae.getRValue()=ce
 select ce," :aoc_conditional_operator"
